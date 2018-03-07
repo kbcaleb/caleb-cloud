@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Bail if we b0rk
+set -e
+
+bundle exec jekyll build
+bundle exec htmlproofer ./_site
+bundle exec htmlproofer ./_site --disable-external
