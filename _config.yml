@@ -12,11 +12,11 @@ locale                   : "en-US"
 title                    : "Caleb Cloud"
 title_separator          : "-"
 name                     : &name "Caleb Collins"
-description              : &description "An amazing website."
+description              : &description "Another day with my head in the cllouds building highly availabe, scalable, & cost efficient infrastructure with Amazon Web Services (AWS)."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/laptop-teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -92,7 +92,7 @@ analytics:
 author:
   name             : *name
   avatar           : "/assets/images/hi_arizona_avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Walk without rhythm and we won't attract the worm."
   location         : "Boulder, CO"
   email            :
   uri              :
@@ -254,16 +254,21 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: false
       comments: true # true
       share: false
       related: true
       classes: wide
+      header:
+        overlay_image: "/assets/images/star-redrock-header.jpeg"
+        image_description:: "Stars Redrocks"
+        show_overlay_excerpt: false
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: true
+      calsses: wide
