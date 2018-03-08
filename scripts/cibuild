@@ -2,6 +2,5 @@
 
 # Bail if we b0rk
 set -e
-
 bundle exec jekyll build
 #bundle exec htmlproofer ./_site
