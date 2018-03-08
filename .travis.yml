@@ -1,8 +1,9 @@
 language: ruby
 cache: bundler
 rvm:
-- 2.3.3
+- 2.5.0
 before_script:
+- gem update --system
 - chmod +x ./scripts/cibuild
 sudo: false
 env:
