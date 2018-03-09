@@ -13,7 +13,7 @@ title                    : "Caleb Cloud"
 title_separator          : "-"
 name                     : &name "Caleb Collins"
 description              : &description "Another day with my head in the cloud."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://caleb.cloud # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/laptop-teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -47,8 +47,8 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                : 6LcCBEgUAAAAAM-ILbOEtLl5kQCgYcLiZN8axpEg
-  secret                 : 6LcCBEgUAAAAAI6Yeo7r7FTFA1Bv605AV-LXFvqf
+  siteKey                : "6LcCBEgUAAAAAM-ILbOEtLl5kQCgYcLiZN8axpEg"
+  secret                 : "6LcCBEgUAAAAAI6Yeo7r7FTFA1Bv605AV-LXFvqf"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
