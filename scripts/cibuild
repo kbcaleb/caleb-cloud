@@ -2,7 +2,6 @@
 
 # Bail if we b0rk
 set -e
-JEKYLL_ENV=production
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
 s3_website push
 #bundle exec htmlproofer ./_site
