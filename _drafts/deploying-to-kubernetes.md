@@ -1,6 +1,5 @@
 ---
 title: "Deploying to Kubernetes"
-excerpt: ""
 ---
 Now that you have Kubernetes running lets deploy a simple demo WordPress app to your cluster.
 
